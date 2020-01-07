@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		test_details
+	</title>
+ <table border="1">
+  <tr>
+    <th>Name</th>
+    <th>marks1</th>
+    <th>marks2</th>
+    <th>marks3</th>
+    <th>marks4</th>
+    <th>marks5</th>
+  </tr>
+ <script type="text/javascript">
+module.exports=require('./data.js'); 
+for(i in module.exports)
+{
+	document.write("<tr>");
+	document.write("<td>");
+	document.write(i);
+	document.write("</td>");
+	for(j=0;j<5;j++)
+	{
+		document.write("<td>");
+		document.write(module.exports[i][j]);
+		document.write("</td>");
+	}
+	document.write("</tr>");
+}
+ </script>
+</table> 
+</head>
+<body>
+
+</body>
+</html>

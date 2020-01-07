@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Qn1
+	</title>
+</head>
+<body>
+      <script type = "application/javascript">
+         var dict;
+         function loadJSON(){
+            var data_file="https://web.iiit.ac.in/~syedmohdali.rizwi/restaurants.json";
+            var http_request=new XMLHttpRequest();
+            http_request.onreadystatechange=function(){
+               if(http_request.readyState==4  && http_request.status==200){
+                 	dict=JSON.parse(http_request.responseText);
+               }
+            }			
+            http_request.open("GET", data_file, true);
+            http_request.send();
+         }
+      </script>
+      <script type="text/javascript">
+      	loadJSON();
+      </script>
+<!-- <script type="text/javascript" src="./a.js"></script> -->
+<select id="sel1" onchange="pr()">
+<script type="text/javascript">
+	dict2={}
+	for(i in dict)
+	{	
+		dict2[dict[i].cuisine]=1;
+	}
+	for(i in dict2)
+	{	document.write('<option>');
+		document.write(i);
+		document.write('</option>');
+	}
+</script>
+</select>
+	<script type="text/javascript">
+	function pr()
+	{	
+		var val=document.getElementById('sel1').value;
+		for(i in dict)
+		{
+			if(dict[i].cuisine==val)
+			{
+				document.write('<tr><td>'+dict[i].name+'</td></tr>');
+			}
+		}
+	}
+	</script>
+<table border="1">
+	<tr>
+		<th>Restaurants</th>
+	</tr>
+</table>
+</body>
+</html>

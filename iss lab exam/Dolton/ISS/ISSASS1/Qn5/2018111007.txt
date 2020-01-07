@@ -1,0 +1,63 @@
+loadkeys          - load keyboard translation tables
+loadunimap        - load the kernel unicode-to-font mapping table
+local-filesystems  - event signalling that local filesystems have been mounted
+localc            - LibreOffice office suite
+locale            - get locale-specific information
+locale            - get locale-specific information
+locale            - get locale-specific information
+locale-gen        - generates localisation files from templates
+locale.conf       - Configuration file for locale settings
+locale.gen        - Configuration file for locale-gen
+localeconv        - get numeric formatting information
+localectl         - Control the system locale and keyboard layout settings
+localedef         - compile locale definition files
+localtime         - transform date and time to broken-down time or ASCII
+localtime         - transform date and time to broken-down time or ASCII
+localtime_r       - transform date and time to broken-down time or ASCII
+locate            - find files by name
+lock              - unimplemented system calls
+lockf             - apply, test or remove a POSIX lock on an open file
+lodraw            - LibreOffice office suite
+loffice           - LibreOffice office suite
+lofromtemplate    - LibreOffice office suite
+log               - natural logarithmic method
+log10             - base-10 logarithmic method
+log10f            - base-10 logarithmic method
+log10l            - base-10 logarithmic method
+log1p             - logarithm of 1 plus argument
+log1pf            - logarithm of 1 plus argument
+log1pl            - logarithm of 1 plus argument
+log2              - base-2 logarithmic method
+log2f             - base-2 logarithmic method
+log2l             - base-2 logarithmic method
+logb              - get exponent of a floating-point value
+logbf             - get exponent of a floating-point value
+logbl             - get exponent of a floating-point value
+logf              - natural logarithmic method
+logger            - enter messages into the system log
+login             - begin session on the system
+login             - begin session on the system
+login.defs        - shadow password suite configuration
+login_tty         - terminal utility methods
+loginctl          - Control the systemd login manager
+logind.conf       - Login manager configuration files
+logind.conf.d     - Login manager configuration files
+logl              - natural logarithmic method
+logname           - print user's login name
+logout            - write utmp and wtmp entries
+logrotate         - rotates, compresses, and mails system logs
+logrotate.conf    - rotates, compresses, and mails system logs
+logsave           - save the output of a command in a logfile
+logwtmp           - append an entry to the wtmp file
+loimpress         - LibreOffice office suite
+lomath            - LibreOffice office suite
+longjmp           - nonlocal jump to a saved stack context
+look              - display lines beginning with a given string
+lookup_dcookie    - return a directory entry's path
+loop              - loop devices
+loop-control      - loop devices
+lorder            - list dependencies for object files
+losetup           - set up and control loop devices
+loweb             - LibreOffice office suite
+lowntfs-3g        - Third Generation Read/Write NTFS Driver
+lowriter          - LibreOffice office suite

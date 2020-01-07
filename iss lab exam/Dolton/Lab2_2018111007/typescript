@@ -1,0 +1,563 @@
+Script started on Wednesday 09 January 2019 11:33:09 PM IST
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cd /usr/localli[K[K/lib/
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: /usr/local/lib[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m/usr/local/lib[00m$ cd-[K -
+/home/dolton
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cd ../.
+./  ../ 
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cd ../..//[K../
+bin/        etc/        lost+found/ proc/       snap/       usr/
+boot/       home/       media/      root/       srv/        var/
+cdrom/      lib/        mnt/        run/        sys/        
+dev/        lib64/      opt/        sbin/       tmp/        
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cd ../../../usr/scr[Kr
+bash: cd: ../../../usr/scr: No such file or directory
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cd ../../../usr/scr[K[Krc/
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: /usr/src[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m/usr/src[00m$ cd /[K[K
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cd Downloads/
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Downloads[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Downloads[00m$ mkdir Lab2
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Downloads[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Downloads[00m$ cd Lab2/
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Downloads/Lab2[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Downloads/Lab2[00m$ cd ..
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Downloads[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Downloads[00m$ cd..[K[K ...[K
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls
+[0m[01;34mArduino[0m  [01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m     [01;34mPublic[0m  [01;34mTemplates[0m   [01;34mVideos[0m
+[01;34mDesktop[0m  [01;34mDownloads[0m  hamlet.txt        [01;34mPictures[0m  [01;34msnap[0m    typescript
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cat hamlet.txt >[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep -i ""t"o"[C hamlet.txt 
+[01;31m[KTo[m[K be, or not [01;31m[Kto[m[K be: that is the question:
+Whether 'tis nobler in the mind [01;31m[Kto[m[K suffer
+Or [01;31m[Kto[m[K take arms against a sea of troubles,
+And by opposing end them? [01;31m[KTo[m[K die: [01;31m[Kto[m[K sleep;
+No more; and by a sleep [01;31m[Kto[m[K say we end
+That flesh is heir [01;31m[Kto[m[K, 'tis a consummation
+Devoutly [01;31m[Kto[m[K be wish'd. [01;31m[KTo[m[K die, [01;31m[Kto[m[K sleep;
+[01;31m[KTo[m[K sleep: perchance [01;31m[Kto[m[K dream: ay, there's the rub;
+[01;31m[KTo[m[K grunt and sweat under a weary life,
+Than fly [01;31m[Kto[m[K others that we know not of?
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ grep ""^"i"s"\"|" "i"s" " "[1P"|"i"s"$"[C hamlet.txt 
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ grep "^is\| is |is$" hamlet.txt [1@\
+To be, or not to be: that[01;31m[K is [m[Kthe question:
+That flesh[01;31m[K is [m[Kheir to, 'tis a consummation
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ grep "^is\| is \|is$" hamlet.txt [Kgrep -B  [K2 ""b"e"a"r" "[1P"[C hamlet.txt 
+Must give us pause: there's the respect
+That makes calamity of so long life;
+For who would [01;31m[Kbear[m[K the whips and scorns of time,
+[36m[K--[m[K
+That patient merit of the unworthy takes,
+When he himself might his quietus make
+With a bare bodkin? who would fardels [01;31m[Kbear[m[K,
+[36m[K--[m[K
+The undiscover'd country from whose bourn
+No traveller returns, puzzles the will
+And makes us rather [01;31m[Kbear[m[K those ills we have
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ grep -B 2 "bear" hamlet.txt [C[1P[1@A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+For who would [01;31m[Kbear[m[K the whips and scorns of time,
+The oppressor's wrong, the proud man's contumely,
+The pangs of despised love, the law's delay,
+[36m[K--[m[K
+With a bare bodkin? who would fardels [01;31m[Kbear[m[K,
+To grunt and sweat under a weary life,
+But that the dread of something after death,
+[36m[K--[m[K
+And makes us rather [01;31m[Kbear[m[K those ills we have
+Than fly to others that we know not of?
+Thus conscience does make cowards of us all;
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ chmod a+[K[Kgo+[K-rwx hamlet.txt 
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -ls [K[Ka
+total 284
+drwxr-xr-x 28 dolton dolton  4096 Jan  9 23:33 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root    4096 Aug  4 02:47 [01;34m..[0m
+drwx------  3 dolton dolton  4096 Nov 13 19:17 [01;34m.adobe[0m
+drwxrwxr-x  4 dolton dolton  4096 Nov 27 10:46 [01;34mArduino[0m
+drwxrwxr-x  3 dolton dolton  4096 Nov 27 10:42 [01;34m.arduino15[0m
+-rw-------  1 dolton dolton 21361 Jan  9 23:21 .bash_history
+-rw-r--r--  1 dolton dolton   220 Aug  4 02:47 .bash_logout
+-rw-r--r--  1 dolton dolton  3771 Sep  2 02:33 .bashrc
+drwx------ 24 dolton dolton  4096 Jan  8 14:06 [01;34m.cache[0m
+drwx------  3 dolton dolton  4096 Aug  4 08:51 [01;34m.compiz[0m
+drwx------ 23 dolton dolton  4096 Jan  6 18:01 [01;34m.config[0m
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 22:37 [01;34mDesktop[0m
+-rw-r--r--  1 dolton dolton    25 Aug  4 08:50 .dmrc
+drwxr-xr-x  2 dolton dolton  4096 Dec  2 18:15 [01;34mDocuments[0m
+-rw-r--r--  1 dolton dolton 12288 Aug  5 20:48 .dolt.txt.swp
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 23:34 [01;34mDownloads[0m
+drwx------  2 dolton dolton  4096 Aug  5 22:56 [01;34m.elinks[0m
+-rw-r--r--  1 dolton dolton  8980 Aug  4 02:47 examples.desktop
+drwx------  2 dolton dolton  4096 Aug 17 19:58 [01;34m.gconf[0m
+-rw-rw-r--  1 dolton dolton    67 Nov 11 18:18 .gitconfig
+drwx------  3 dolton dolton  4096 Aug 17 19:58 [01;34m.gnome[0m
+drwx------  3 dolton dolton  4096 Jan  9 19:47 [01;34m.gnupg[0m
+-rw-------  1 dolton dolton  1489 Jan  9 20:05 hamlet.txt
+-rw-------  1 dolton dolton 45150 Jan  9 19:47 .ICEauthority
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 19:58 [01;34m.java[0m
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 20:56 [01;34m.jssc[0m
+-rw-------  1 dolton dolton    28 Aug  3 23:52 .lesshst
+drwx------  4 dolton dolton  4096 Dec  2 11:08 [01;34m.local[0m
+drwx------  3 dolton dolton  4096 Nov 10 19:23 [01;34m.macromedia[0m
+drwx------  5 dolton dolton  4096 Aug  4 09:12 [01;34m.mozilla[0m
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mMusic[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug  5 22:50 [01;34m.nano[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug 17 19:58 [01;34m.oracle_jre_usage[0m
+drwxr-xr-x  2 dolton dolton  4096 Dec 20 21:10 [01;34mPictures[0m
+-rw-r--r--  1 dolton dolton   655 Aug  4 02:47 .profile
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mPublic[0m
+-rw-------  1 dolton dolton    12 Dec  1 15:53 .python_history
+drwxr-xr-x  3 dolton dolton  4096 Aug  3 23:28 [01;34msnap[0m
+-rw-r--r--  1 dolton dolton     0 Aug  4 09:37 .sudo_as_admin_successful
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mTemplates[0m
+-rw-rw-r--  1 dolton dolton  4096 Jan  9 23:36 typescript
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mVideos[0m
+-rw-------  1 dolton dolton 19016 Jan  9 22:37 .viminfo
+-rw-rw-r--  1 dolton dolton     7 Oct 13 22:09 .vimrc
+-rw-------  1 dolton dolton   237 Jan  9 19:47 .Xauthority
+-rw-------  1 dolton dolton    82 Jan  9 19:47 .xsession-errors
+-rw-------  1 dolton dolton  1343 Jan  8 14:06 .xsession-errors.old
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ chmod a+rwx hamlet.txt 
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -la
+total 288
+drwxr-xr-x 28 dolton dolton  4096 Jan  9 23:33 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root    4096 Aug  4 02:47 [01;34m..[0m
+drwx------  3 dolton dolton  4096 Nov 13 19:17 [01;34m.adobe[0m
+drwxrwxr-x  4 dolton dolton  4096 Nov 27 10:46 [01;34mArduino[0m
+drwxrwxr-x  3 dolton dolton  4096 Nov 27 10:42 [01;34m.arduino15[0m
+-rw-------  1 dolton dolton 21361 Jan  9 23:21 .bash_history
+-rw-r--r--  1 dolton dolton   220 Aug  4 02:47 .bash_logout
+-rw-r--r--  1 dolton dolton  3771 Sep  2 02:33 .bashrc
+drwx------ 24 dolton dolton  4096 Jan  8 14:06 [01;34m.cache[0m
+drwx------  3 dolton dolton  4096 Aug  4 08:51 [01;34m.compiz[0m
+drwx------ 23 dolton dolton  4096 Jan  6 18:01 [01;34m.config[0m
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 22:37 [01;34mDesktop[0m
+-rw-r--r--  1 dolton dolton    25 Aug  4 08:50 .dmrc
+drwxr-xr-x  2 dolton dolton  4096 Dec  2 18:15 [01;34mDocuments[0m
+-rw-r--r--  1 dolton dolton 12288 Aug  5 20:48 .dolt.txt.swp
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 23:34 [01;34mDownloads[0m
+drwx------  2 dolton dolton  4096 Aug  5 22:56 [01;34m.elinks[0m
+-rw-r--r--  1 dolton dolton  8980 Aug  4 02:47 examples.desktop
+drwx------  2 dolton dolton  4096 Aug 17 19:58 [01;34m.gconf[0m
+-rw-rw-r--  1 dolton dolton    67 Nov 11 18:18 .gitconfig
+drwx------  3 dolton dolton  4096 Aug 17 19:58 [01;34m.gnome[0m
+drwx------  3 dolton dolton  4096 Jan  9 19:47 [01;34m.gnupg[0m
+-rwxrwxrwx  1 dolton dolton  1489 Jan  9 20:05 [01;32mhamlet.txt[0m
+-rw-------  1 dolton dolton 45150 Jan  9 19:47 .ICEauthority
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 19:58 [01;34m.java[0m
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 20:56 [01;34m.jssc[0m
+-rw-------  1 dolton dolton    28 Aug  3 23:52 .lesshst
+drwx------  4 dolton dolton  4096 Dec  2 11:08 [01;34m.local[0m
+drwx------  3 dolton dolton  4096 Nov 10 19:23 [01;34m.macromedia[0m
+drwx------  5 dolton dolton  4096 Aug  4 09:12 [01;34m.mozilla[0m
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mMusic[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug  5 22:50 [01;34m.nano[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug 17 19:58 [01;34m.oracle_jre_usage[0m
+drwxr-xr-x  2 dolton dolton  4096 Dec 20 21:10 [01;34mPictures[0m
+-rw-r--r--  1 dolton dolton   655 Aug  4 02:47 .profile
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mPublic[0m
+-rw-------  1 dolton dolton    12 Dec  1 15:53 .python_history
+drwxr-xr-x  3 dolton dolton  4096 Aug  3 23:28 [01;34msnap[0m
+-rw-r--r--  1 dolton dolton     0 Aug  4 09:37 .sudo_as_admin_successful
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mTemplates[0m
+-rw-rw-r--  1 dolton dolton  8192 Jan  9 23:40 typescript
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mVideos[0m
+-rw-------  1 dolton dolton 19016 Jan  9 22:37 .viminfo
+-rw-rw-r--  1 dolton dolton     7 Oct 13 22:09 .vimrc
+-rw-------  1 dolton dolton   237 Jan  9 19:47 .Xauthority
+-rw-------  1 dolton dolton    82 Jan  9 19:47 .xsession-errors
+-rw-------  1 dolton dolton  1343 Jan  8 14:06 .xsession-errors.old
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ g[Kgroups
+dolton adm dialout cdrom sudo dip plugdev lpadmin sambashare
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ chow n[K[Kn yo hamlet.txt 
+chown: invalid user: ‘yo’
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ chown yo hamlet.txt groups[Kls -lachmod a+rwx hamlet.txt [C[C[1P[1P[1P[1P[1P[1@g[1@=[1P[1@0[1@-[1P[1P[1@o[1@-[1@7
+chmod: invalid mode: ‘go-7’
+Try 'chmod --help' for more information.
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ chmod go-7 hamlet.txt [1P[1P[1P[C[1P[1@0[1@1[1@1[1P[1P[1@7[1@7
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -la
+total 292
+drwxr-xr-x 28 dolton dolton  4096 Jan  9 23:33 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root    4096 Aug  4 02:47 [01;34m..[0m
+drwx------  3 dolton dolton  4096 Nov 13 19:17 [01;34m.adobe[0m
+drwxrwxr-x  4 dolton dolton  4096 Nov 27 10:46 [01;34mArduino[0m
+drwxrwxr-x  3 dolton dolton  4096 Nov 27 10:42 [01;34m.arduino15[0m
+-rw-------  1 dolton dolton 21361 Jan  9 23:21 .bash_history
+-rw-r--r--  1 dolton dolton   220 Aug  4 02:47 .bash_logout
+-rw-r--r--  1 dolton dolton  3771 Sep  2 02:33 .bashrc
+drwx------ 24 dolton dolton  4096 Jan  8 14:06 [01;34m.cache[0m
+drwx------  3 dolton dolton  4096 Aug  4 08:51 [01;34m.compiz[0m
+drwx------ 23 dolton dolton  4096 Jan  6 18:01 [01;34m.config[0m
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 22:37 [01;34mDesktop[0m
+-rw-r--r--  1 dolton dolton    25 Aug  4 08:50 .dmrc
+drwxr-xr-x  2 dolton dolton  4096 Dec  2 18:15 [01;34mDocuments[0m
+-rw-r--r--  1 dolton dolton 12288 Aug  5 20:48 .dolt.txt.swp
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 23:34 [01;34mDownloads[0m
+drwx------  2 dolton dolton  4096 Aug  5 22:56 [01;34m.elinks[0m
+-rw-r--r--  1 dolton dolton  8980 Aug  4 02:47 examples.desktop
+drwx------  2 dolton dolton  4096 Aug 17 19:58 [01;34m.gconf[0m
+-rw-rw-r--  1 dolton dolton    67 Nov 11 18:18 .gitconfig
+drwx------  3 dolton dolton  4096 Aug 17 19:58 [01;34m.gnome[0m
+drwx------  3 dolton dolton  4096 Jan  9 19:47 [01;34m.gnupg[0m
+----rwxrwx  1 dolton dolton  1489 Jan  9 20:05 [01;32mhamlet.txt[0m
+-rw-------  1 dolton dolton 45150 Jan  9 19:47 .ICEauthority
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 19:58 [01;34m.java[0m
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 20:56 [01;34m.jssc[0m
+-rw-------  1 dolton dolton    28 Aug  3 23:52 .lesshst
+drwx------  4 dolton dolton  4096 Dec  2 11:08 [01;34m.local[0m
+drwx------  3 dolton dolton  4096 Nov 10 19:23 [01;34m.macromedia[0m
+drwx------  5 dolton dolton  4096 Aug  4 09:12 [01;34m.mozilla[0m
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mMusic[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug  5 22:50 [01;34m.nano[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug 17 19:58 [01;34m.oracle_jre_usage[0m
+drwxr-xr-x  2 dolton dolton  4096 Dec 20 21:10 [01;34mPictures[0m
+-rw-r--r--  1 dolton dolton   655 Aug  4 02:47 .profile
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mPublic[0m
+-rw-------  1 dolton dolton    12 Dec  1 15:53 .python_history
+drwxr-xr-x  3 dolton dolton  4096 Aug  3 23:28 [01;34msnap[0m
+-rw-r--r--  1 dolton dolton     0 Aug  4 09:37 .sudo_as_admin_successful
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mTemplates[0m
+-rw-rw-r--  1 dolton dolton 12288 Jan  9 23:41 typescript
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mVideos[0m
+-rw-------  1 dolton dolton 19016 Jan  9 22:37 .viminfo
+-rw-rw-r--  1 dolton dolton     7 Oct 13 22:09 .vimrc
+-rw-------  1 dolton dolton   237 Jan  9 19:47 .Xauthority
+-rw-------  1 dolton dolton    82 Jan  9 19:47 .xsession-errors
+-rw-------  1 dolton dolton  1343 Jan  8 14:06 .xsession-errors.old
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -lachmod 077 hamlet.txt [1@-
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -la
+total 296
+drwxr-xr-x 28 dolton dolton  4096 Jan  9 23:33 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root    4096 Aug  4 02:47 [01;34m..[0m
+drwx------  3 dolton dolton  4096 Nov 13 19:17 [01;34m.adobe[0m
+drwxrwxr-x  4 dolton dolton  4096 Nov 27 10:46 [01;34mArduino[0m
+drwxrwxr-x  3 dolton dolton  4096 Nov 27 10:42 [01;34m.arduino15[0m
+-rw-------  1 dolton dolton 21361 Jan  9 23:21 .bash_history
+-rw-r--r--  1 dolton dolton   220 Aug  4 02:47 .bash_logout
+-rw-r--r--  1 dolton dolton  3771 Sep  2 02:33 .bashrc
+drwx------ 24 dolton dolton  4096 Jan  8 14:06 [01;34m.cache[0m
+drwx------  3 dolton dolton  4096 Aug  4 08:51 [01;34m.compiz[0m
+drwx------ 23 dolton dolton  4096 Jan  6 18:01 [01;34m.config[0m
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 22:37 [01;34mDesktop[0m
+-rw-r--r--  1 dolton dolton    25 Aug  4 08:50 .dmrc
+drwxr-xr-x  2 dolton dolton  4096 Dec  2 18:15 [01;34mDocuments[0m
+-rw-r--r--  1 dolton dolton 12288 Aug  5 20:48 .dolt.txt.swp
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 23:34 [01;34mDownloads[0m
+drwx------  2 dolton dolton  4096 Aug  5 22:56 [01;34m.elinks[0m
+-rw-r--r--  1 dolton dolton  8980 Aug  4 02:47 examples.desktop
+drwx------  2 dolton dolton  4096 Aug 17 19:58 [01;34m.gconf[0m
+-rw-rw-r--  1 dolton dolton    67 Nov 11 18:18 .gitconfig
+drwx------  3 dolton dolton  4096 Aug 17 19:58 [01;34m.gnome[0m
+drwx------  3 dolton dolton  4096 Jan  9 19:47 [01;34m.gnupg[0m
+----------  1 dolton dolton  1489 Jan  9 20:05 hamlet.txt
+-rw-------  1 dolton dolton 45150 Jan  9 19:47 .ICEauthority
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 19:58 [01;34m.java[0m
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 20:56 [01;34m.jssc[0m
+-rw-------  1 dolton dolton    28 Aug  3 23:52 .lesshst
+drwx------  4 dolton dolton  4096 Dec  2 11:08 [01;34m.local[0m
+drwx------  3 dolton dolton  4096 Nov 10 19:23 [01;34m.macromedia[0m
+drwx------  5 dolton dolton  4096 Aug  4 09:12 [01;34m.mozilla[0m
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mMusic[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug  5 22:50 [01;34m.nano[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug 17 19:58 [01;34m.oracle_jre_usage[0m
+drwxr-xr-x  2 dolton dolton  4096 Dec 20 21:10 [01;34mPictures[0m
+-rw-r--r--  1 dolton dolton   655 Aug  4 02:47 .profile
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mPublic[0m
+-rw-------  1 dolton dolton    12 Dec  1 15:53 .python_history
+drwxr-xr-x  3 dolton dolton  4096 Aug  3 23:28 [01;34msnap[0m
+-rw-r--r--  1 dolton dolton     0 Aug  4 09:37 .sudo_as_admin_successful
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mTemplates[0m
+-rw-rw-r--  1 dolton dolton 16384 Jan  9 23:43 typescript
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mVideos[0m
+-rw-------  1 dolton dolton 19016 Jan  9 22:37 .viminfo
+-rw-rw-r--  1 dolton dolton     7 Oct 13 22:09 .vimrc
+-rw-------  1 dolton dolton   237 Jan  9 19:47 .Xauthority
+-rw-------  1 dolton dolton    82 Jan  9 19:47 .xsession-errors
+-rw-------  1 dolton dolton  1343 Jan  8 14:06 .xsession-errors.old
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -lachmod -077 hamlet.txt [1P[1P[1P[1P[1@7[1@7[1@7
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ 
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -la
+total 296
+drwxr-xr-x 28 dolton dolton  4096 Jan  9 23:33 [0m[01;34m.[0m
+drwxr-xr-x  3 root   root    4096 Aug  4 02:47 [01;34m..[0m
+drwx------  3 dolton dolton  4096 Nov 13 19:17 [01;34m.adobe[0m
+drwxrwxr-x  4 dolton dolton  4096 Nov 27 10:46 [01;34mArduino[0m
+drwxrwxr-x  3 dolton dolton  4096 Nov 27 10:42 [01;34m.arduino15[0m
+-rw-------  1 dolton dolton 21361 Jan  9 23:21 .bash_history
+-rw-r--r--  1 dolton dolton   220 Aug  4 02:47 .bash_logout
+-rw-r--r--  1 dolton dolton  3771 Sep  2 02:33 .bashrc
+drwx------ 24 dolton dolton  4096 Jan  8 14:06 [01;34m.cache[0m
+drwx------  3 dolton dolton  4096 Aug  4 08:51 [01;34m.compiz[0m
+drwx------ 23 dolton dolton  4096 Jan  6 18:01 [01;34m.config[0m
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 22:37 [01;34mDesktop[0m
+-rw-r--r--  1 dolton dolton    25 Aug  4 08:50 .dmrc
+drwxr-xr-x  2 dolton dolton  4096 Dec  2 18:15 [01;34mDocuments[0m
+-rw-r--r--  1 dolton dolton 12288 Aug  5 20:48 .dolt.txt.swp
+drwxr-xr-x  4 dolton dolton  4096 Jan  9 23:34 [01;34mDownloads[0m
+drwx------  2 dolton dolton  4096 Aug  5 22:56 [01;34m.elinks[0m
+-rw-r--r--  1 dolton dolton  8980 Aug  4 02:47 examples.desktop
+drwx------  2 dolton dolton  4096 Aug 17 19:58 [01;34m.gconf[0m
+-rw-rw-r--  1 dolton dolton    67 Nov 11 18:18 .gitconfig
+drwx------  3 dolton dolton  4096 Aug 17 19:58 [01;34m.gnome[0m
+drwx------  3 dolton dolton  4096 Jan  9 19:47 [01;34m.gnupg[0m
+-rwxrwxrwx  1 dolton dolton  1489 Jan  9 20:05 [01;32mhamlet.txt[0m
+-rw-------  1 dolton dolton 45150 Jan  9 19:47 .ICEauthority
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 19:58 [01;34m.java[0m
+drwxrwxr-x  3 dolton dolton  4096 Aug 17 20:56 [01;34m.jssc[0m
+-rw-------  1 dolton dolton    28 Aug  3 23:52 .lesshst
+drwx------  4 dolton dolton  4096 Dec  2 11:08 [01;34m.local[0m
+drwx------  3 dolton dolton  4096 Nov 10 19:23 [01;34m.macromedia[0m
+drwx------  5 dolton dolton  4096 Aug  4 09:12 [01;34m.mozilla[0m
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mMusic[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug  5 22:50 [01;34m.nano[0m
+drwxrwxr-x  2 dolton dolton  4096 Aug 17 19:58 [01;34m.oracle_jre_usage[0m
+drwxr-xr-x  2 dolton dolton  4096 Dec 20 21:10 [01;34mPictures[0m
+-rw-r--r--  1 dolton dolton   655 Aug  4 02:47 .profile
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mPublic[0m
+-rw-------  1 dolton dolton    12 Dec  1 15:53 .python_history
+drwxr-xr-x  3 dolton dolton  4096 Aug  3 23:28 [01;34msnap[0m
+-rw-r--r--  1 dolton dolton     0 Aug  4 09:37 .sudo_as_admin_successful
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mTemplates[0m
+-rw-rw-r--  1 dolton dolton 16384 Jan  9 23:43 typescript
+drwxr-xr-x  2 dolton dolton  4096 Aug  4 08:50 [01;34mVideos[0m
+-rw-------  1 dolton dolton 19016 Jan  9 22:37 .viminfo
+-rw-rw-r--  1 dolton dolton     7 Oct 13 22:09 .vimrc
+-rw-------  1 dolton dolton   237 Jan  9 19:47 .Xauthority
+-rw-------  1 dolton dolton    82 Jan  9 19:47 .xsession-errors
+-rw-------  1 dolton dolton  1343 Jan  8 14:06 .xsession-errors.old
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ chown dolton [K hamlet.txt 
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls
+[0m[01;34mArduino[0m  [01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m     [01;34mPublic[0m  [01;34mTemplates[0m   [01;34mVideos[0m
+[01;34mDesktop[0m  [01;34mDownloads[0m  [01;32mhamlet.txt[0m        [01;34mPictures[0m  [01;34msnap[0m    typescript
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls -la > tmp.txt
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ grea[Kp ""D [K[K^"."."."."."."x"."."."[C tmp.txt > awk "" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K'' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C{''}'p}'r}'i}'n}'t}' }'$}'9}'[C[C
+grep: {print $9}: No such file or directory
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ grep "^......x..." tmp.txt > awk '{pprint $9}'[C[C[C[C[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ [19Pls -la > tmp.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep "^......x..." tmp.txt > awk '{pprint $9}'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C awk '{pr[1P[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C< awk '{p[1@r[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K 28 dolton dolton  4096 Jan  9 23:45 .
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  3 root   root    4096 Aug  4 02:47 ..
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxrwxr-x[m[K  4 dolton dolton  4096 Nov 27 10:46 Arduino
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxrwxr-x[m[K  3 dolton dolton  4096 Nov 27 10:42 .arduino15
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  4 dolton dolton  4096 Jan  9 22:37 Desktop
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  2 dolton dolton  4096 Dec  2 18:15 Documents
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  4 dolton dolton  4096 Jan  9 23:34 Downloads
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[K-rwxrwxrwx[m[K  1 dolton dolton  1489 Jan  9 20:05 hamlet.txt
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxrwxr-x[m[K  3 dolton dolton  4096 Aug 17 19:58 .java
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxrwxr-x[m[K  3 dolton dolton  4096 Aug 17 20:56 .jssc
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  2 dolton dolton  4096 Aug  4 08:50 Music
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxrwxr-x[m[K  2 dolton dolton  4096 Aug  5 22:50 .nano
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxrwxr-x[m[K  2 dolton dolton  4096 Aug 17 19:58 .oracle_jre_usage
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  2 dolton dolton  4096 Dec 20 21:10 Pictures
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  2 dolton dolton  4096 Aug  4 08:50 Public
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  3 dolton dolton  4096 Aug  3 23:28 snap
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  2 dolton dolton  4096 Aug  4 08:50 Templates
+[35m[Ktmp.txt[m[K[36m[K:[m[K[01;31m[Kdrwxr-xr-x[m[K  2 dolton dolton  4096 Aug  4 08:50 Videos
+grep: {print $9}: No such file or directory
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ grep "^......x..." tmp.txt < awk '{pprint $9}'[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C>
+[C[C[C[C[C[C[C[C[C[C hamlet.txt [K[K[K[K[K[K[K[K[K[K[K[K[K'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C awk '{pr[1P[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| awk '{p[1@r[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+.
+..
+Arduino
+.arduino15
+Desktop
+Documents
+Downloads
+hamlet.txt
+.java
+.jssc
+Music
+.nano
+.oracle_jre_usage
+Pictures
+Public
+snap
+Templates
+Videos
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cal > [K[K[K[K[K[Kcd Desktop/
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Desktop[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;32marduino-arduinoide.desktop[0m  [01;34mAssignmentDS-1[0m  [01;34mcontest[0m  [01;32mqn1.sh[0m  [01;32mqn2.sh[0m
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Desktop[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Desktop[00m$ cd ..
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ ls
+[0m[01;34mArduino[0m  [01;34mDocuments[0m         [01;32mhamlet.txt[0m  [01;34mPublic[0m     tmp.txt
+awk      [01;34mDownloads[0m         [01;34mMusic[0m       [01;34msnap[0m       typescript
+[01;34mDesktop[0m  examples.desktop  [01;34mPictures[0m    [01;34mTemplates[0m  [01;34mVideos[0m
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~[00m$ cd L[K[K[K[Kcd Downloads/
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Downloads[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Downloads[00m$ ls[K[Kcd ../Documents/
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ ls
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ mkdir Lab2
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ ls
+[0m[01;34mLab2[0m
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cal > out1
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ date >> out1
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cat out1 
+    January 2019      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8 _ _9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+Wed Jan  9 23:49:20 IST 2019
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cat -B [K[KA 3 h[Kout1 
+cat: 3: No such file or directory
+    January 2019      $
+Su Mo Tu We Th Fr Sa  $
+       1  2  3  4  5  $
+ 6  7  8 _^H _^H9 10 11 12  $
+13 14 15 16 17 18 19  $
+20 21 22 23 24 25 26  $
+27 28 29 30 31        $
+                      $
+Wed Jan  9 23:49:20 IST 2019$
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cat -A 3 out1 [K[K[K[K[K[K[K[K[K[K[K[K[K[Ktail -3 out1 
+27 28 29 30 31        
+                      
+Wed Jan  9 23:49:20 IST 2019
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cat out1 
+    January 2019      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8 _ _9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+Wed Jan  9 23:49:20 IST 2019
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ se d[K[Kd -n -e ''3','7'p'[C'[K[C out1 
+       1  2  3  4  5  
+ 6  7  8 _ _9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ sed -n -e '3,7p' out1 >[K[K | w c
+      5      32     119
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ sed -n -e '3,7p' out1 | wcc[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho ""D[KT"h"i"s" "d"a"y" "i"s" "a"w"e"s"o"m" [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce""[C > out2
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc out2 
+ 1  4 20 out2
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc out2 > awk ''{'}'p}'r}'i}'n}'t}' }'$}' [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C
+wc: '{print $1}': No such file or directory
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc out2 > awk '{print $1}''[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C awk '{print $1}' [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C< awk '{print $1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C
+
+ 1  4 20 out2
+wc: '{print $1}': No such file or directory
+ 1  4 20 total
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc out2 < awk '{print $1}''[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '{print $1}' [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc out2 > awk '{print $1}''[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C awk '{print $1}' [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| awk '{print $1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C
+
+1
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ echo ""I" "a"m" "l"o"o"k"i"n"g" "f"o"r"w"a" [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr""d" "t"o" "t"h"e" "d"a"y"[C >> out2 
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cat out2
+This day is awesome
+I am looking forward to the day
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ tail -[K[K[K[K[K[Khead -7 out1 | tal[Kil -5 ou t1
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+Wed Jan  9 23:49:20 IST 2019
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ head -7 out1 | tail -5 outt1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -7 out1 | tail -5 out1[K[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C -7 out1 | tail -5 out1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ta -7 out1 | tail -5 out1 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[Ci -7 out1 | tail -5 out11[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[Cl -7 out1 | tail -5 out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C -7 out1 | tail -5 out1[K[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C -7 out1 | tail -5 out1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@he -7 out1 | tail -5 out1 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[Ca -7 out1 | tail -5 out11[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[Cd -7 out1 | tail -5 out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -7 out1 | tail -5 out1[K[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C -7 out1 | tail -5 out1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ta -7 out1 | tail -5 out1 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[Ci -7 out1 | tail -5 out11[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[Cl -7 out1 | tail -5 out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -5 out1[K[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -5 out1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@he -5 out1 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -5 out11[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd -5 out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+    January 2019      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8 _ _9 10 11 12  
+13 14 15 16 17 18 19  
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ tail -7 out1 | head -5 outt1[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K
+       1  2  3  4  5  
+ 6  7  8 _ _9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+Wed Jan  9 23:49:20 IST 2019
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ tail -7 out1 | head -5 ou t1
+    January 2019      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8 _ _9 10 11 12  
+13 14 15 16 17 18 19  
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ tail -7 out1 | head -5 outt1[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K
+       1  2  3  4  5  
+ 6  7  8 _ _9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc -l out2
+2 out2
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc -l out2[Kwc -l out2tail -7 out1 | head -5 outt1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | head -5 outt1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ head -7 out1 | tail
+[C[C[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cat out2[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "I am looking forwardd to the day" >> out2 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc out2 | awk '{print $1}'[K[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [9Pawk '{print $1}'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc out2 | awk '{print $1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [9Pawk '{print $1}'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc out2 | awk '{print $1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ echo "I am looking forward to the day" >> out2 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc out2 | awk '{print $1}'[K[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [9Pawk '{print $1}'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc out2 > awk '{print $1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "This day is awesome"" > out2[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ wc out2 [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> awk '{print $1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [9Pawk '{print $1}'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc out2 | awk '{print $1}''[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ echo "I am looking forward to the day" >> out2 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cat out2[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -7 out1 | tail -5 outt1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ tail -7 out1 | head
+[C[C[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | head -5 outt1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pwc -l out2[Kawk ''{}[K[K{'}'p}'r}'i}'n}'t}' }'$}'5}'[C[C p[Kout2[K1
+
+Th
+5
+_9
+17
+24
+31
+
+IST
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ awk '{print $5}' out1[C[C[1P[1@[[1@][1@4[1@-9]}' out1 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+awk: line 1: syntax error at or near [
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ awk '{print $[4-9]}' out1 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@4[1@ [1@$[1@5 }' out1 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$}' out11[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6}' out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C }' out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$}' out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7}' out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C }' out1[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$}' out1[1@8[1@ [1@$[1@9[1@ [1@$[1P[1P
+
+WeThFrSa
+45
+__9101112
+16171819
+23242526
+3031
+
+23:49:20IST2019
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ awk '{print $4 $5 $6 $7 $88 $9}' out1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$5 $6 $7 $[1@8[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$5 $6 $7 [1@$[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "$5 $6 $7[1@ [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C $5 $6 $[1@7[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$6 [1@$[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C $6[1@ [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$[1@6[1@ [C[C[C[1@ [1@"[C[1@ [1@"[C[C[C[C[1@ [1@"[C[1@ [1@"[C[C[C[C[1@ [1@"[C[1@ [1@"
+     
+We Th Fr Sa  
+4 5    
+_ _9 10 11 12 
+16 17 18 19  
+23 24 25 26  
+30 31    
+     
+23:49:20 IST 2019   
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cut [K[K[K[Kcat out2 [K[K[K[K[K[K[K[K[Kcut -d  [K/""[K[K[K" "  [K-f 3 [K- ot[Kut1
+  January 2019      
+Tu We Th Fr Sa  
+     1  2  3  4  5  
+ 7  8 _ _9 10 11 12  
+15 16 17 18 19  
+22 23 24 25 26  
+29 30 31        
+                    
+ 9 23:49:20 IST 2019
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ cut -d " " -f 3- out1awk '{print $4 " " $5 " "  $6 " " $7 " " $8 " " $9}' out1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K}' }'$}'2}' }'$}'4}'
+^C
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ awk '{print $2 $4}' out2
+dayawesome
+amforward
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ awk '{print $2 $4}' out2[C"$4}' out2 [A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C $4}' out22[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$4}' out2[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C $4}' out2[A]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+day awesome
+am forward
+]0;dolton@dolton-Lenovo-ideapad-330S-15IKB-D: ~/Documents[01;32mdolton@dolton-Lenovo-ideapad-330S-15IKB-D[00m:[01;34m~/Documents[00m$ exit
+exit
+
+Script done on Wednesday 09 January 2019 06:39:53 PM IST

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body{
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.navbarstick {
+  position: fixed;
+  top: 1%;
+  width:99%;
+}
+.cont{
+	margin-top: 0%;
+	margin-left: 11%;
+	margin-right: 20%;
+	font-size: 4vw;
+	font-style: oblique;
+	font-family: serif;
+}
+.navbarstick + .cont {
+  padding-top: 0%;
+}
+.buttons {
+  position: relative;
+  text-align: center;
+  float:left;
+  width: 20%;
+  text-decoration: none;
+  font-size: 90%;
+  font-family: serif;
+  display: block;
+  padding: 1% 1%;
+  color: white;
+  margin-right: 0%;
+  background-color: black;
+}
+a {
+  border: lightblue;
+  color: red;
+  cursor: pointer;
+}
+div1{
+	position: relative;
+	color: black;
+	font-family: 'Lobster', cursive;
+	font-size: 4vw;
+	text-shadow: 3px 3px blue;
+}
+img.image1{
+	position: absolute;
+	width:4%;
+	height:auto;
+	bottom: -27%;
+	left: 1%
+}
+img.image2{
+	position: absolute;
+	border-radius:50%;
+	width:4%;
+	height:auto;
+	bottom: -27%;
+	left: 6%
+}
+img.image3{
+	position: absolute;
+	width:10%;
+	top: 37%;
+	left: 85%;
+	box-shadow: 10px 6px 6px 1px;
+}
+img.image4{
+	position: absolute;
+	width:4%;
+	height:auto;
+	bottom: -26%;
+	left: 11%
+	}
+img.image5{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	top:45%;
+	left:10%;
+	box-shadow: 10px 6px 6px 1px;
+}
+img.image6{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	top:45%;
+	left:38%;
+	box-shadow: 10px 6px 6px 1px;
+}
+img.image7{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	top:45%;
+	left:69%;
+	box-shadow: 10px 6px 6px 1px;
+}
+img.image8{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	top:90%;
+	left:10%;
+	box-shadow: 10px 6px 6px 1px;
+}
+img.image9{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	top:90%;
+	left:38%;
+	box-shadow: 10px 6px 6px 1px;
+}
+img.image10{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	top:90%;
+	left:69%;
+	box-shadow: 10px 6px 6px 1px;
+}
+.likes{
+	position: absolute;
+	font-size: 200%;
+	color: orange;
+}
+p.footer{
+	position: absolute;
+	color:yellow;
+	bottom:-30%;
+	font-family: 'Righteous', cursive;
+	left: 43%;
+	font-size: 1vw;
+}
+.cngp{
+	position: absolute;
+	left: 30%;
+	width: 40%;
+	height: 40%;
+	box-shadow: 10px 6px 6px 1px;
+}
+table{
+	margin-left: -10%;
+	margin-top: 2%;
+	text-align: center;
+}
+th{
+	background-color: #4CAF50;
+}
+tr:hover{
+	background-color: blue;
+}
+.text1{
+	font-size:4vw;
+	position: absolute;
+	top:33%;
+	left:15%;
+}
+.text2{
+	font-size:4vw;
+	position: absolute;
+	top:33%;
+	left:43%;
+}
+.text3{
+	font-size:4vw;
+	position: absolute;
+	top:33%;
+	left:75%;
+}
+.text4{
+	font-size:4vw;
+	position: absolute;
+	top:78%;
+	left:15%;
+}
+.text5{
+	font-size:4vw;
+	position: absolute;
+	top:78%;
+	left:43%;
+}
+.text6{
+	font-size:4vw;
+	position: absolute;
+	top:78%;
+	left:75%;
+}

@@ -1,0 +1,20 @@
+local:        bash,  :,  .,  [,  alias,  bg, bind, break, builtin, caller, cd, command, compgen, complete, compopt, continue, declare, dirs, disown, echo, enable, eval, exec, exit, export, false, fc, fg, getopts,
+logout:        bash,  :,  .,  [,  alias,  bg, bind, break, builtin, caller, cd, command, compgen, complete, compopt, continue, declare, dirs, disown, echo, enable, eval, exec, exit, export, false, fc, fg, getopts,
+logger:        logger - enter messages into the system log
+login:        login - begin session on the system
+look:        look - display lines beginning with a given string
+localectl:        localectl - Control the system locale and keyboard layout settings
+lowntfs-3g: 
+loginctl:        loginctl - Control the systemd login manager
+locate:        locate - find files by name
+logname:        logname - print user´s login name
+loadkeys:        loadkeys - load keyboard translation tables
+localedef:        localedef - compile locale definition files
+logresolve:        logresolve - Resolve IP-addresses to hostnames in Apache log files
+locale:        locale - get locale-specific information
+loadunimap:        loadunimap - load the kernel unicode-to-font mapping table
+logrotate:        logrotate ‐ rotates, compresses, and mails system logs
+lockdev:        Lockdev  is  a setgid binary, which provides a reliable way to put an exclusive lock in /var/lock to devices (e.g. ttyS0) using both FSSTND and SVr4 methods, so regular users don't need write access
+logsave:        logsave - save the output of a command in a logfile
+losetup:        losetup - set up and control loop devices
+load_policy:        load_policy - load a new SELinux policy into the kernel

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		radomizer
+	</title>
+</head>
+<body>
+	<button>
+		Reset
+	</button>
+	<style type="text/css">
+		.cl1{
+
+		}
+		.cl2{
+			font-weight: bold;
+		}
+	</style>
+	<p1>TEXT1</p1>
+	<p2>TEXT2</p2>
+	<p3>TEXT3</p3>
+	<p4>TEXT4</p4	>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript">
+      	var f1=1,s1=0,f2=0,f3=0,f4=0,s2=0,s3=0,s4=0;
+      	$(document).ready(function(){
+      	$('img').click(function(){
+      		$('img').fadeOut();
+      	});
+		$('button').click(function(){
+      		location.reload();
+      	});
+      	$('p1').click(function(){setTimeout(function(){
+      	s1+=1;
+      	if(f1)
+      	{
+      		$('p1').hide();
+      	}
+      	if(s1==2)
+      	{
+      		s1=0;
+      		f1=1;
+      	}
+      	},300)});
+      	$('p1').dblclick(function(){$('p1').toggleClass('cl2');f1=0;});
+      	$('p2').click(function(){setTimeout(function(){
+      	s2+=1;
+      	if(f2)
+      	{
+      		$('p2').hide();
+      	}
+      	if(s2==2)
+      	{
+      		s2=0;
+      		f2=1;
+      	}
+      	},300)});
+      	$('p2').dblclick(function(){$('p2').toggleClass('cl2');f2=0;});
+      	$('p3').click(function(){setTimeout(function(){
+      	s3+=1;
+      	if(f3)
+      	{
+      		$('p3').hide();
+      	}
+      	if(s3==2)
+      	{
+      		s3=0;
+      		f3=1;
+      	}
+      	},300)});
+      	$('p3').dblclick(function(){$('p3').toggleClass('cl2');f3=0;});
+      	$('p4').click(function(){setTimeout(function(){
+      	s4+=1;
+      	if(f4)
+      	{
+      		$('p4').hide();
+      	}
+      	if(s4==2)
+      	{
+      		s4=0;
+      		f4=1;
+      	}
+      	},300)});
+      	$('p4').dblclick(function(){$('p4').toggleClass('cl2');f4=0;});
+	});
+      </script>
+      <img width="5%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png">
+</body>
+</html>

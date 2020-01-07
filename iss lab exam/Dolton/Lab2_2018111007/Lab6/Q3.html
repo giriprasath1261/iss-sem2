@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Q3
+	</title>
+</head>
+<body>
+<script type = "application/javascript">
+ function loadJSON(){
+    var data_file = "http://localhost:8000/getmarks";
+    var http_request = new XMLHttpRequest();
+    http_request.onreadystatechange = function(){
+       if (http_request.readyState == 4  && http_request.status == 200){
+          jsonObj = JSON.parse(http_request.responseText);
+          val=getElementById('form1').value;
+          tab=getElementById('');
+		a="";
+          for(i in jsonObj)
+          {
+          	if(i[0]==val)
+          	{
+          		a+="<tr><td>";
+          		a+=i;
+          		a+="</td><td>";
+          		a+=jsonObj[i][0];
+          		a+="</td><td>";
+          		a+=jsonObj[i][1];
+          		a+="</td><td>";
+          		a+=jsonObj[i][2];
+          		a+="</td><td>";
+          		a+=jsonObj[i][3];
+          		a+="</td><td>";
+          		a+=jsonObj[i][4];
+          		a+="</td></tr>"
+          	}
+          }
+          document.getElementById("div1").innerHTML=a;
+       }
+    }	
+    http_request.open("GET", data_file, true);
+    http_request.send();
+ }
+</script>
+<form onsubmit="loadJSON()">
+	Enter the character:
+	<input id="form1" type="text" name="name1">
+	<input type="submit" name="sub1">
+</form>
+<table border="1">
+	<tr>
+		<td>Name</td>
+		<td>Marks1</td>
+		<td>Marks2</td>
+		<td>Marks3</td>
+		<td>Marks4</td>
+		<td>Marks5</td>
+	</tr>
+	<div id="div1"></div>
+</table>
+</body>
+</html>

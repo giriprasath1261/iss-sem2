@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display characters of the specified unicode numbers.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var res = String.fromCharCode(72, 69, 76, 76, 79);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the unicode of the first character in the string "HELLO WORLD".</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "HELLO WORLD";
+  var n = str.charCodeAt(0);
+  document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>

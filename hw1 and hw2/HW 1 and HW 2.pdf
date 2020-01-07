@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Central Authentication Service - IIIT Hyderabad</title>
+
+    <meta name="_csrf" content=""/>
+    <meta name="_csrf_header" content=""/>
+
+    
+    <link rel="stylesheet" href="/cas/css/cas.css" />
+    <link rel="icon" href="/cas/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="images/iiit-new.png" />
+        </header>
+        <main class="content">
+            <h1>Central Authentication Service (CAS)</h1>
+
+
+
+
+<div id="cookiesDisabled" class="errors" style="display:none;">
+    <h2>Browser cookies disabled</h2>
+    <p>Your browser does not accept cookies. Single Sign On WILL NOT WORK.</p>
+</div>
+
+
+
+<div class="row">
+    <div class="col-half form">
+        <form id="fm1" action="/cas/login?service=https%3A%2F%2Fmoodle.iiit.ac.in%2Flogin%2Findex.php%3FauthCAS%3DCAS" method="post">
+            <h2>Login</h2>
+            <label for="username">
+                Email
+                
+                    
+                    
+                        
+                        <input id="username" name="username" class="required" tabindex="1" autocorrect="off" spellcheck="false" type="text" autocapitalize="off" required="required" accesskey="u" value="" autocomplete="email"/>
+                    
+                
+            </label>
+            <label for="password">
+                Password
+                <input id="password" name="password" class="required" tabindex="2" required="required" type="password" value="" autocomplete="off"/>
+            </label>
+            <span id="capslock-on" style="display:none;"><p class="capslock-msg"><img src="images/warning.png"> CAPSLOCK key is turned on!</p></span>
+
+            
+
+            
+
+            <div class="label">
+                <input class="btn-submit submit" name="submit" accesskey="l" value="LOGIN" tabindex="6" type="submit" />
+                
+            </div>
+            <input type="hidden" name="execution" value="cbb39f71-b80f-4e65-953c-a6bb8063f657_ZXlKaGJHY2lPaUpJVXpVeE1pSjkuWmpocmJFZExWRWhST1hFelkzbFFNRmxYT1VWMk56VnFia001Wkc5R2FqUXZjV1Z6TjFwaVluQktTRU4wTVU1b2JGUldaSHBxYm5GMlpXZG9ZVXcyT0VKcGJtNWFRVFZJTW05YVYzZFdRVEUyVG0xU2NrRTJVRTlIVEdGS1lrTlBOeXRwT1hkeGFHVnJOMlEzWjBVMlJuTjJkVzFvWW5KbVVYVmphR05CZWt4WWJ5OU9OR1ZGTjNWUlkyb3llV3RPVkZkTE5uaDJNazEwU1hGQ1VXRTRaMHhuTUVadU0xSktSM1VyYVZKUmRYbHRhM0o2VkZkT1kzZEhlRXg1VDNWclYyRmplbVExY0ZoTGRESlVaRmxaZWxrNFR6ZzJZbGhWUmk5cFVHRk1WV3BPVTJOVE1HRk5NVEpZZVZwSFRqSkVkRU5QT1Vzd1NWVm9ia296U0ZsRFJUUTJMMFJKY1VaTGVsZzBObG93TkVaM1VuVkRWMU40WmpGTFJVSmhaRlpuU0Zoc2RsSTFWVFppWTBNeVlTOXlhRGh3VDBWNGFDOTBUbU5DV1RCMFJHNXRhRXdyTVhsV1NXdENNR2d4WkN0MFQxQjNiU3RKWVRGU1pIUXphMlZRV1ZCdWRVUlNVMms1VkZCcFlXcHZkMkZ0VlVoNlVVOWFjVzV3U0hoblZFRlhWbkZSVUdNME1pOVpVRUpvUjBGRmRHUmFjWFJIWXpOM2VGSXdlRzAwVDFCMFYxVlNTekpxWTJacVZFRkNUM0ZPUXpSNFdUTklWRlJRY0ZFNFlWbG9kMHRJWWxFNU9Fa3hNSE5OVkRSVllsaE1UbXMwTUZFNGEzY3lSMEZ0VUVjeksxZHlRMEpTVURCbFZHNXJMMEV4VlRVNGNFdHVTMnBDUjFsNVJFcHhhRkpUTWtnNVpVeHdiRmRXUlhWWFFsVmtXVGhtTVZkalZ6YzBZbXRrT0c1cmJuRm1kRkE0Ukc5NU9HRXdXbTluZG0xcFZrbGtVMEZxTUhoSVZVdFFWQzluZERSVmRrbzJZVFpGYjAxNVozaEZabmhMVEVOVllWTlBXVEpMY0UxdlVuTXpjR1pTWldjMmFWTXpRV2gyY0dZeVpITjRSRzVrUkVZNFZGWnFjRzE0Y1dSdFFWbHNRblF6VW0wNVNYSnpjV1ZVUjBoTmEyTldOblZ0YUhWQlQxVlpWa2RrU3pFMlFuUkRWR1Z6TmxOdVltd3lVVVpLZVdablRHbHlMMUZuZURrNVVFaG5TRzA1VWpkT1duYzFRVVYyT1hsdFoyWjVlVVpGUTNwVmJHZGtSek13VDFOS1ZTdHpaVFJTYkd0blIyZEpORFEzY1ZrNFZ6VTNhSGsxVTFoVk9HTkRNbWxJTTBWc1EzbzViR1JUYWxRdlNtSnpUMmhGUzNCNmRYSmFPRWhVYURCcVZHdGhkV3RKZUU5elZWTjRPVUZ5ZEVOVlpYTXlWalZpV2xaVlp5czVVR1YxTkdseFQyVjRiemhOYUV0VVFsUktTRFIyS3poRFRYQnVXa2xyUTNSak16TTRjMnd6VmpabEwyOUNabTE2VWxSSk5EazFhWEpZY21sWEsxbFFibVl6U1ZCVWFuUkJWRnA1U0ZrdmRFdFJSMVJ4VFZaYVYzWlRkV3hyT1doWVdXcFBNMHRoWkVZd1EweHdRM1ZRZWxKNFNFNU5aalZrV0daTU9ISktXVTFpYUd0Q1NucEZSWEJGZDAxMFdreERkR0kyT0dGTFIxZGpZazlhU1ZZM09WZDJjaTl2V2tzNGNIcGxRbEZKTlVaS05GWmFTSGhaZDJSSlNtaFJTbm80V0VWNWNteFRWRU52U0hVemIybFJTMUl5VVZGUFltTldWVVZqVFcxdVVEVkpabkpJZEdGSmJqaFpjRXB5Y3psVE5qTlZVRkZLYlhWeVNGSnZNRVIxYVhaRFJIUlFlaTh6UkdaUU9HcENOV3g2UzNOS2ExTmhSSEZDVjFGUmQwaElZbXRrYkhOdlMzWXpTbUozZVhKWFpXWlVOMVpoTkhVNWNEbFBOMnc1UkhGaGFVSXpRMVIwY2t4R05rOU1RbTUzVTB0V1VYaDBVRkpGTmpOM1VURjRZMDVVZVdaM1ZXVkxjbXh5T0dKWlJYbHRVM2N4YW5ocGMwSkhaR1p6TDNwWkszQTNkMVZMTW1sSWFFRkxSV040TUhOVGRYaFNjR3RRVWpSa2VVdG5jVWx0WWpOd1pHY3daM0JCTWtKMVQzcDNWSFJyVTJWU1draGlaRWhZWkZseWVWQjVWVWRoZFdOVE0xRlljeXRhUVRSaFdFcE9XbFZ2UkdGaFlrVllWRGhWVWtreE56QlVkMWMwZVZwdFMxZDBTR3BPYW1wbmFFSnZXRzlUVjJORlVuZEpSRUZJVmxwc1pUQlZPREl2YzBNclZrRllhbEZYY1d4SGNtMU1jVGRvVDJNMlNWVXZObk5IYm05VmQxaFNNMUJUYm5sSWJFSnZhemR0UlZCVVowMUJia2Q1TlVkelZHZFpUMlJrZDBWb2RXWnZSMUJQYlc1dGRHeHpjWFpuUjJOMVZqYzRZVGxrYmxkdGVGUTBVV3REU2xkQ1NUazBiRGxoU3pkeU4xbG1VVloxTW1WWlRqUkVURnBPU2xWSk5IUlRLMUJ0VUdoWlQxbDRPSEpHZVhSdk5YWlpORTFvZEdRd1NEa3ZiVWhFZUhGc1RqTlRRemd2ZFVSNlYxWkdRVzB5Vm5jM2NrYzNkR3N3VDBKT05tSm9jMDVJU1M5MGFHVlBWRXBZT1ZFdll6Rm9OVlpJVldGd01WQTFUbFl5Ymtvd1JFaEJiVWRSZFdReVIweHFiV1ZPWmpjMWNsZGpUMmRxUVRaVmMxQm1hMmhrV21NMGIxRlVibVp4TjBKT2VDdHRTVVoyT1ZKMFRrOVdMeTh5ZDB4TVIzYzVUR1JLYVhSbFNIQlhOM1ZNZVZKQ1oxTTVTWGg1VUhOR2MwVkZNVWQxZVdVMGNXeE1abVJFWTBWaGVsUnZWVVp0UVdoaVZtRnZUa3REZEhwRFVXWjZlRU5zYW5adWFuWTROV1JCV0VZMWFWa3hZVnBtWjJSNmF6VkdXRkpMVDNoTmVrUnNWVXBzU0dkaWJXZHhSRFJKTjFOdGNrczROVWh0V0VGTksyYzBSazlOV1UxelIydEZSMGt5TlVGaU5qY3habFUwU1Zsdk1ucFdNVnBPVEdJeWNHMXBZbXhaVjJSckwyZHBjbTlIVmpGaFJYbFdZbk5OYUROU2FVWXpUazVVVGtjNVRXOXdkMHhwWXpodWRIWktaRmt2ZERoVGFrVnhOVWREU1doNlozTjNaMkUzVEVaR2FrNUxiSEVyTkVJdlVGa3dTVUZRTUV0RVJGWndTakJVSzNGYWJ5dHFaWEk0TDFkMWVGcDJibWh1ZEc5WGJHdHBNaTh2YjFKNlVYWXdhQzkzYmtsTk5tTndVbk0wU1VkRlFUTjJhV1l6TkhSWVdFbHdVbXBxVW1FelVXcGxOemhGUnpaUmJtTk1WMjVJTmxadldVMHlhRkZTY0RaVkwwaG5iMlZwTVdGV2RtYzVXa3BuZG1wMGIyZGFjV3R5SzBKVWEwUjJSSEF2ZGxSRVFtcFpibElyY2xobVdVeEpLM05PVG5velJpOW1Sek0wZW5OR1pteHZNMGhJVlRkb00ycDZOblJoV0ZKMWIzVTBkM1JCTmxoSE1ucENUVkZYVkRNdlpYUmhTM1I0Vm5CVFJqTnhWRW80YmxGcldtcGxUMlZJV1RoR2RXOTRRa2t5TlRkclVsVTNUakJHT1hwdk9ESjJZVGM1YjNCbVoxSklWalZ4YUM5VVNVWm5ZV0ZpYVZwVFNsSjFWM0J1TkVSRGRWa3dOMVJqY0ZWeFZsbFJlR0o0Ym5oaFVFUndZVlF3YlhwTllXTnNVa0p4WlROVmREZG1VRU42VG05dEx6bHdXWFk1ZFU1b2FWUkZTblk0WXpSdmVtOXZRbTVDUm5OMVVVbGlRbVJGTkhsTFEyMXdhMkZXTjNObWNFaHpVWEJ2Y2xka1NuaHlNRkF6WVUwNU4wTmphWFZyTVZGdFNrTmxjWGh1UVdSMWVHNUhRazV6UmtWUWJsTnFlRUZWTDFFdk5IcE1OVE5NWkhkR1pIQnZOemRJTDJSMVR6ZEJVWGNyY3pWQ1ZtbDVZMkYxUzJkVWRrdGtVM2xrZFVaQmJWZGFMMUEyZEVwTk1VNUxNVzFMYm01S1pFbG5TRGhWWjBnek1uUnpieTltZFVJd1JtVnZLMWN2TW01WmNrbFFiRzg1V1hnd04wcE5iMDVFTjBKRmFEUnpkRmxTUkZFNU4yNXJVV2MyU25aNmRVbG1RMGxtZHpKbVkyUkhWbWR6WVVnek5qZEhZMEk0UFEuelRMdzh5bW53LTB3MDBsOFpZcmI5Y1BGeEd0NXdNMDU3QmxINlVmRjVleGRMeXMya2RXTngzeTBWMXpELTlFRHdlM1NFNFJZdDF2eE1LRkVtNWFfN0E=" />
+            <input type="hidden" name="_eventId" value="submit" />
+            <a href="https://passwordreset.iiit.ac.in">Change password</a>
+        </form>
+    </div>
+    <div class="col-half note">
+        <h2>Note: </h2>
+        <ol>
+            <li>Since CAS does not support Single Sign-Out as of now, please make sure you logout from all the applications and close the browser window when you have finished using the system.</li>
+            <li>IT Support will NEVER ask for your password and/or any other personal information. Please do not reply to any such mail and report them immediately to IT support</li>
+            <li>It is recommended you choose a strong password since this single password is your gateway to all the computing resources at IIIT-H</li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="/cas/js/cas.js?v=2"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70441570-2', 'auto');
+  ga('send', 'pageview');
+</script>
+            </main>
+        <footer>
+            &copy; International Institute of Information Technology, Hyderabad
+        </footer>
+    </div>
+</body>
+</html>
+

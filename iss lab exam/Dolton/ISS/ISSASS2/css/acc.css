@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body{
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.navbarstick {
+  position: fixed;
+  top: 1%;
+  width: 99%;
+}
+.cont{
+	list-style-type: circle;
+font-size: 2.5vw;
+color: lightyellow;
+text-shadow: 2px 2px 1.5px white;
+font-family: 'Roboto Slab', serif;
+}
+.navbarstick + .cont {
+  padding-top: 0%;
+}
+.buttons {
+  position: relative;
+  text-align: center;
+  float:left;
+  width: 20%;
+  text-decoration: none;
+  font-size: 90%;
+  font-family: serif;
+  display: block;
+  padding: 1% 1%;
+  color: white;
+  margin-right: 0%;
+  background-color: black;
+}
+a {
+  border: lightblue;
+  color: red;
+  cursor: pointer;
+}
+div1{
+	position: relative;
+	color: black;
+	font-family: 'Lobster', cursive;
+	font-size: 4vw;
+	text-shadow: 3px 3px blue;
+}
+img.image1{
+	position: absolute;
+	width:4%;
+	height:auto;
+	bottom: -27%;
+	left: 1%
+}
+img.image2{
+	position: absolute;
+	border-radius:50%;
+	width:4%;
+	height:auto;
+	bottom: -27%;
+	left: 6%
+}
+img.image4{
+	position: absolute;
+	width:4%;
+	height:auto;
+	bottom: -26%;
+	left: 11%
+	}
+.likes{
+	position: absolute;
+	font-size: 200%;
+	color: orange;
+}
+p.footer{
+	position: absolute;
+	color:yellow;
+	bottom:-30%;
+	font-family: 'Righteous', cursive;
+	left: 43%;
+	font-size: 1vw;
+}

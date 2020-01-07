@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Test Details</title>
+</head>
+
+<body>
+  <h1>Student Sheet</h1>
+  <script src="data.js"></script>
+  <table style="width:50%">
+    <tr>
+      <th>Name</th>
+      <th>marks1</th>
+      <th>marks2</th>
+      <th>marks3</th>
+      <th>marks4</th>
+      <th>marks5</th>
+    </tr>
+  </table>
+
+  <script>
+    var tab=document.getElementsByTagName("table")[0];
+    for(name in data)
+      tab.innerHTML+="<tr><td>"+name+"</td><td>"+data[name][0]+"</td><td>"+data[name][1]+"</td><td>"+data[name][2]+"</td><td>"+data[name][3]+"</td><td>"+data[name][4]+"</td>";
+  </script>
+</body>

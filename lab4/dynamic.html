@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>dynamic</title>
+  </head>
+
+  <body>
+    <script src="data.js"></script>
+    <h1>Student Sheet</h1>
+
+    <select id="myselect" onchange="show(this)">
+      <option value="">Choose an option:</option>
+      <!-- <option value="name">Name</option> -->
+    </select>
+
+    <table style="width:50%" id="fight">
+      <tr>
+        <th>Name</th>
+        <th>marks1</th>
+        <th>marks2</th>
+        <th>marks3</th>
+        <th>marks4</th>
+        <th>marks5</th>
+      </tr>
+    </table>
+
+    <p index="print"></p>
+
+    <script>
+      var tab=document.getElementsByTagName("table")[0];
+      var drop=document.getElementById("myselect");
+      var id=0;
+      for(var i in data)
+      {
+        drop.innerHTML+= '<option value="'+id+'">'+i+"</option>";
+        id++;
+      }
+        var msg=document.getElementById("fight");
+        function show(drop){
+        // msg.innerHTML = 'drop.options[drop.selectedIndex].text';
+        msg.innerHTML+="<tr><td>"+drop.options[drop.selectedIndex].text+"</td><td>"+data[drop.options[drop.selectedIndex].text][0]+"</td><td>"+data[drop.options[drop.selectedIndex].text][1]+"</td><td>"+data[drop.options[drop.selectedIndex].text][2]+"</td><td>"+data[drop.options[drop.selectedIndex].text][3]+"</td><td>"+data[drop.options[drop.selectedIndex].text][4]+"</td></tr>";
+      }
+    </script>
+  </body>
+</html>

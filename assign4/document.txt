@@ -1,0 +1,35 @@
+Introductiodn to Software Systems:
+
+Assignment 4
+
+Team members:
+  1.Siddarth Vijay
+  2.Giri Prasath
+
+Aim: Rewrite the experiment of N-grams in vlabs from php,ajax to python,flask and javascript.
+
+softwares used: html,javascript,flask,python3,sql.
+
+We started with changing the layout of the website and seperating it to parts according to its function and usage.
+Then we rewrote the experiment using python and sqlflask for computation and storage of data respectiely.
+
+components of the project:
+
+1. app.py:
+      -> hosts the website in the local server.
+      -> assigns layout for various webpages
+      -> creates and allocates memory for required storage elements.
+      -> assigns unique path for all pages.
+
+2. experiment_answers.py:
+      -> contains the correct answers of each corpus of the experiment for cross checking if the users input are correct.
+
+3. result_checker.py:
+      -> cross checks each answer of the user with the correct answers and returns number if correct answers and number of wrong answers.
+      -> chooses the ccorpus according to users input.
+
+4. layout.html:
+      -> contains the layout of the webpages.
+      -> uses css, carousal and bootstrap for the layout of the pages.
+
+5.
